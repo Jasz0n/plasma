@@ -1,7 +1,7 @@
 import React from 'react';
 import { observer, useLocalObservable, useLocalStore } from 'mobx-react-lite';
 import { useStore } from '../../store/index';
-// import { useWeb3React } from '@web3-react/core';
+import { useWeb3React } from '@web3-react/core';
 import { injected } from '../../lib/web3-react';
 
 import { Box, Group, Modal, Tabs, TabsProps, Text, Avatar, AvatarsGroup, Badge, SegmentedControl } from '@mantine/core';
